@@ -2,19 +2,19 @@
 
 This project implements a basic File Integrity Monitoring (FIM) system using AIDE (Advanced Intrusion Detection Environment) along with custom Bash and Python scripts. The system monitors changes in critical system directories such as `/etc`, `/bin`, and `/usr` to detect potential unauthorized modifications, which may indicate a security breach.
 
-## 🛠️ Tools Used
+## Tools Used
 - **AIDE**: Core integrity checker.
 - **Bash**: For initialization and scheduled checks.
 - **Python**: For parsing and alerting on suspicious changes (optional extension).
 - **cron**: For scheduling automated checks.
 
-## 📂 Directories Monitored
+##  Directories Monitored
 - `/etc`
 - `/bin`
 - `/usr`
 - Add more as needed in the AIDE configuration.
 
-## 🚀 Setup
+## Setup
 
 ### 1. Install AIDE
 
